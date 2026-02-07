@@ -98,7 +98,7 @@ This ensures:
 ### Clone the repository
 
 ```
-git clone https://github.com/your-username/student-stress-analyzer.git
+git clone https://github.com/your-username/Burnout.git
 cd student-stress-analyzer
 ```
 
