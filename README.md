@@ -1,70 +1,170 @@
-🎓 Student Stress & Burnout Analyzer
+# 🎓 Student Stress & Burnout Analyzer
 
-A web-based application that evaluates student stress and burnout levels using academic, lifestyle, and mental-health indicators. The system performs real-time analysis without storing any personal data, ensuring privacy, transparency, and ease of use.
+*A real-time, privacy-first web application to evaluate student stress and burnout using academic, lifestyle, and mental-health indicators — with zero data storage.*
 
-📌 Project Overview
+---
 
-The Student Stress & Burnout Analyzer collects 10 key inputs including sleep habits, academic workload, CGPA, anxiety levels, screen time, and physical activity. Using a normalized weighted scoring approach, the system computes a burnout score, identifies high-risk factors, and provides actionable recommendations to support student well-being and academic performance.
+## 🌟 Why This Project?
 
-🚀 Key Features
+Student burnout is rising due to academic pressure, poor sleep, screen overuse, and anxiety.
 
-• Real-time burnout and stress scoring (0–100 scale)
-• Uses academic, lifestyle, and mental-health indicators
-• Identifies critical risk factors such as poor sleep, high anxiety, and low physical activity
-• Generates personalized improvement recommendations
-• Clean, responsive, and user-friendly interface
-• Privacy-first design — no login, no database, no data storage
+This project provides a **transparent, fast, and ethical** way to assess stress levels and guide students toward healthier habits — without compromising privacy.
 
-🧠 Methodology
+---
 
-The application applies a client-side normalized and weighted scoring model to convert user inputs into standardized stress indices. These indices are aggregated to calculate an overall burnout score and corresponding stress category.
+## 📌 Project Overview
 
-This transparent statistical approach ensures explainability and avoids black-box automation.
+The **Student Stress & Burnout Analyzer** collects **10 key indicators**, including:
 
-🛠️ Tech Stack
+* Sleep duration
+* Academic workload
+* CGPA
+* Anxiety levels
+* Screen time
+* Physical activity
 
-Frontend: React / Next.js
-Styling: Tailwind CSS
-Logic: JavaScript (Client-side processing)
-Platform: Replit
-Version Control: GitHub
+Using a **normalized weighted scoring model**, the system:
 
-📊 Stress Level Classification
-Score Range	Stress Level
-0 – 30	Low Stress
-31 – 60	Moderate Stress
-61 – 80	High Stress
-81 – 100	Severe Burnout
-🔐 Privacy Assurance
+* Calculates burnout score (0–100)
+* Classifies stress level
+* Identifies high-risk factors
+* Provides personalized recommendations
 
-This application does not store, track, or transmit any user data. All computations are executed locally within the browser to ensure complete privacy and data security.
+All calculations are executed **client-side only**.
 
-▶️ How to Run the Project
+---
 
-Clone or download the repository
+## 🚀 Features
 
-Open the project in Replit or VS Code
+* 📊 Real-time stress scoring
+* 🧠 Multi-dimensional health assessment
+* ⚠️ High-risk indicator detection
+* 📈 Personalized wellness suggestions
+* 📱 Responsive modern UI
+* 🔐 100% privacy-first architecture
 
-Run the following commands:
+---
 
+## 🧮 Scoring Method
+
+The algorithm follows three steps:
+
+1. Normalize all inputs to a standard scale
+2. Apply weighted importance to each factor
+3. Aggregate into final burnout score
+
+This ensures:
+
+* Fair comparison across inputs
+* Explainable results
+* No black-box AI
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React / Next.js
+* **Styling:** Tailwind CSS
+* **Processing:** JavaScript (Client-side)
+* **Platform:** Replit
+* **Version Control:** GitHub
+
+---
+
+## 📊 Stress Level Scale
+
+| Score Range | Category        |
+| ----------- | --------------- |
+| 0 – 30      | Low Stress      |
+| 31 – 60     | Moderate Stress |
+| 61 – 80     | High Stress     |
+| 81 – 100    | Severe Burnout  |
+
+---
+
+## 🔐 Privacy & Ethics
+
+* No user accounts
+* No database
+* No analytics tracking
+* No cloud storage
+
+**Your data never leaves your device.**
+
+---
+
+## ▶️ Installation & Usage
+
+### Clone the repository
+
+```
+git clone https://github.com/your-username/student-stress-analyzer.git
+cd student-stress-analyzer
+```
+
+### Install packages
+
+```
 npm install
+```
+
+### Start application
+
+```
 node index.js
+```
 
-Open the application in your browser
+### Open in browser
 
-Enter the required inputs and click Analyze Stress
+Enter values and click **Analyze Stress**
 
-📈 Future Enhancements
+---
 
-• Mobile application deployment
-• Advanced statistical trend analysis
-• Progress tracking dashboards
-• Integration with educational wellness platforms
-• Optional predictive modeling (with ethical safeguards)
+## 📂 Project Structure
 
-👨‍💻 Developed By
+```
+student-stress-analyzer/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── utils/
+├── index.js
+├── package.json
+└── README.md
+```
 
-Divya Langalia
-Mohit Nirmal
+---
 
-Student Project — Student Stress & Burnout Analyzer
+## 📈 Future Improvements
+
+* 📱 Mobile app version
+* 📊 Burnout trend tracking
+* 🧠 Advanced analytics
+* 🏫 Integration with wellness systems
+* 📈 Visual dashboards
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch (`feature-name`)
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — free to use and modify.
+
+---
+
+## 👨‍💻 Authors
+
+**Divya Langalia**
+**Mohit Nirmal**
