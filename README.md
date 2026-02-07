@@ -1,68 +1,70 @@
-# 🎓 Student Stress & Burnout Analyzer
+🎓 Student Stress & Burnout Analyzer
 
-A web‑based application that analyzes student stress and burnout levels using academic, lifestyle, and mental‑health factors. The system performs real‑time analysis without storing any personal data, ensuring privacy and simplicity.
+A web-based application that evaluates student stress and burnout levels using academic, lifestyle, and mental-health indicators. The system performs real-time analysis without storing any personal data, ensuring privacy, transparency, and ease of use.
 
----
+📌 Project Overview
 
-## 📌 Project Overview
-The Student Stress & Burnout Analyzer collects 10 key inputs such as sleep habits, academic workload, CGPA, anxiety, screen time, and physical activity. Using a normalized weighted scoring formula, the system calculates a stress score, identifies weak areas, and provides personalized recommendations to improve student well‑being and performance.
+The Student Stress & Burnout Analyzer collects 10 key inputs including sleep habits, academic workload, CGPA, anxiety levels, screen time, and physical activity. Using a normalized weighted scoring approach, the system computes a burnout score, identifies high-risk factors, and provides actionable recommendations to support student well-being and academic performance.
 
----
+🚀 Key Features
 
-## 🚀 Key Features
-- Real‑time stress and burnout score (0–100)
-- Uses 10 academic, lifestyle, and mental‑health inputs
-- Identifies weak areas like poor sleep, high anxiety, or low activity
-- Generates personalized recommendations
-- Clean, responsive, and user‑friendly UI
-- No login, no database, no data storage (privacy‑first)
+• Real-time burnout and stress scoring (0–100 scale)
+• Uses academic, lifestyle, and mental-health indicators
+• Identifies critical risk factors such as poor sleep, high anxiety, and low physical activity
+• Generates personalized improvement recommendations
+• Clean, responsive, and user-friendly interface
+• Privacy-first design — no login, no database, no data storage
 
----
+🧠 Methodology
 
-## 🧠 Methodology
-The system applies a client‑side normalized and weighted scoring model to convert user inputs into stress indices, which are combined to compute an overall burnout score and stress category.
+The application applies a client-side normalized and weighted scoring model to convert user inputs into standardized stress indices. These indices are aggregated to calculate an overall burnout score and corresponding stress category.
 
----
+This transparent statistical approach ensures explainability and avoids black-box automation.
 
-## 🛠️ Tech Stack
-- *Frontend:* React / Next.js  
-- *Styling:* Tailwind CSS  
-- *Logic:* JavaScript (Client‑side)  
-- *Platform:* Replit  
-- *Version Control:* GitHub  
+🛠️ Tech Stack
 
----
+Frontend: React / Next.js
+Styling: Tailwind CSS
+Logic: JavaScript (Client-side processing)
+Platform: Replit
+Version Control: GitHub
 
-## 📊 Stress Level Classification
-- *0 – 30:* Low Stress  
-- *31 – 60:* Moderate Stress  
-- *61 – 80:* High Stress  
-- *81 – 100:* Severe Burnout  
+📊 Stress Level Classification
+Score Range	Stress Level
+0 – 30	Low Stress
+31 – 60	Moderate Stress
+61 – 80	High Stress
+81 – 100	Severe Burnout
+🔐 Privacy Assurance
 
----
+This application does not store, track, or transmit any user data. All computations are executed locally within the browser to ensure complete privacy and data security.
 
-## 🔐 Privacy Note
-This application does *not store any user data*. All calculations are performed instantly on the client side to ensure complete privacy.
+▶️ How to Run the Project
 
----
+Clone or download the repository
 
-## ▶️ How to Run the Project
-1. Clone or download the repository  
-2. Open the project in Replit or VS Code  
-3. Run the application  
-4. Fill in the form and click *Analyze Stress*
+Open the project in Replit or VS Code
 
----
+Run the following commands:
 
-## 📈 Future Enhancements
-- Mobile application support  
-- Machine learning‑based stress prediction  
-- Trend analysis and progress tracking  
-- Integration with educational platforms  
+npm install
+node index.js
 
----
+Open the application in your browser
 
-## 👨‍💻 Developed By
-*Divya Langalia*
-*Mohit Nirmal*  
-Student Project – Student Stress & Burnout Analyzer
+Enter the required inputs and click Analyze Stress
+
+📈 Future Enhancements
+
+• Mobile application deployment
+• Advanced statistical trend analysis
+• Progress tracking dashboards
+• Integration with educational wellness platforms
+• Optional predictive modeling (with ethical safeguards)
+
+👨‍💻 Developed By
+
+Divya Langalia
+Mohit Nirmal
+
+Student Project — Student Stress & Burnout Analyzer
