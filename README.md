@@ -120,22 +120,6 @@ Enter values and click **Analyze Stress**
 
 ---
 
-## 📂 Project Structure
-
-```
-student-stress-analyzer/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── utils/
-├── index.js
-├── package.json
-└── README.md
-```
-
----
 
 ## 📈 Future Improvements
 
@@ -158,13 +142,7 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — free to use and modify.
-
----
-
 ## 👨‍💻 Authors
 
-**Divya Langalia**
+**Divya Langalia** &
 **Mohit Nirmal**
