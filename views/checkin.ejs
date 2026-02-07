@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stress Check-In</title>
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Spline+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/analyzer.css" />
+  </head>
+  <body>
+    <div class="bg-layer">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+      <canvas id="glitterCanvas" aria-hidden="true"></canvas>
+    </div>
+
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="logo-dot"></span>
+          <span class="logo-text">BurnoutGuard</span>
+        </a>
+        <a class="ghost-link" href="/">Back to Landing</a>
+      </header>
+
+      <section class="layout">
+        <form id="burnoutForm" class="glass report-form" action="/report" method="get">
+          <div class="section-head">
+            <h3>Stress Check-In</h3>
+            <span class="section-hint">Fill all 10 inputs.</span>
+          </div>
+
+          <div class="form-grid">
+            <label class="field">
+              <span>Sleep hours per night</span>
+              <input type="number" step="0.5" min="0" max="12" name="sleepHours" value="7" required />
+            </label>
+            <label class="field">
+              <span>Sleep quality (1–5)</span>
+              <div class="range-wrap">
+                <input type="range" min="1" max="5" step="1" name="sleepQuality" value="4" />
+                <output>4</output>
+              </div>
+            </label>
+            <label class="field">
+              <span>Study hours per day</span>
+              <input type="number" step="0.5" min="0" max="16" name="studyHours" value="6" required />
+            </label>
+            <label class="field">
+              <span>CGPA (0–10)</span>
+              <input type="number" step="0.1" min="0" max="10" name="cgpa" value="8.1" required />
+            </label>
+            <label class="field">
+              <span>Academic workload (1–5)</span>
+              <div class="range-wrap">
+                <input type="range" min="1" max="5" step="1" name="workload" value="3" />
+                <output>3</output>
+              </div>
+            </label>
+            <label class="field">
+              <span>Anxiety level (1–5)</span>
+              <div class="range-wrap">
+                <input type="range" min="1" max="5" step="1" name="anxiety" value="3" />
+                <output>3</output>
+              </div>
+            </label>
+            <label class="field">
+              <span>Self-esteem (1–5)</span>
+              <div class="range-wrap">
+                <input type="range" min="1" max="5" step="1" name="selfEsteem" value="4" />
+                <output>4</output>
+              </div>
+            </label>
+            <label class="field">
+              <span>Screen time per day (hours)</span>
+              <input type="number" step="0.5" min="0" max="16" name="screenTime" value="4" required />
+            </label>
+            <label class="field">
+              <span>Harassment level (1–5)</span>
+              <div class="range-wrap">
+                <input type="range" min="1" max="5" step="1" name="harassment" value="2" />
+                <output>2</output>
+              </div>
+            </label>
+            <label class="field">
+              <span>Physical activity per week (hours)</span>
+              <input type="number" step="0.5" min="0" max="12" name="physicalActivity" value="3" required />
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="cta">Generate Report</button>
+            <p class="form-note">
+              Your answers are processed locally. No data is stored.
+            </p>
+          </div>
+        </form>
+
+        <section class="glass info-panel">
+          <div class="section-head">
+            <h3>What You'll Get</h3>
+            <span class="section-hint">Instantly after submit.</span>
+          </div>
+          <ul class="steps">
+            <li>Burnout score + classification</li>
+            <li>Weak area indicators</li>
+            <li>Three tailored recommendations</li>
+          </ul>
+          <div class="privacy-note">
+            You can revisit this check-in anytime without logging in.
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

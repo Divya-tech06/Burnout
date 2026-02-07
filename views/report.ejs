@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Burnout Report</title>
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Spline+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/analyzer.css" />
+  </head>
+  <body>
+    <div class="bg-layer">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+      <canvas id="glitterCanvas" aria-hidden="true"></canvas>
+    </div>
+
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="logo-dot"></span>
+          <span class="logo-text">BurnoutGuard</span>
+        </a>
+        <div class="top-actions">
+          <a class="ghost-link" href="/checkin">Edit Inputs</a>
+          <a class="ghost-link" href="/">Home</a>
+        </div>
+      </header>
+
+      <section class="layout report-layout">
+        <section class="glass report" data-report="true">
+          <div class="section-head">
+            <h3>Your Burnout Readout</h3>
+            <span class="section-hint">Calculated from your latest inputs.</span>
+          </div>
+
+          <div class="score-panel">
+            <div class="score-gauge">
+              <div class="score-value">
+                <span id="scoreNumber">--</span>
+                <small>/ 100</small>
+              </div>
+              <div class="score-label" id="scoreLabel">Awaiting input</div>
+              <div class="score-bar">
+                <div class="score-fill" id="scoreFill"></div>
+              </div>
+            </div>
+            <div class="score-class">
+              <p class="score-title">Classification</p>
+              <p class="score-state" id="scoreState">—</p>
+              <p class="score-footnote">
+                0–30 Low · 31–60 Moderate · 61–80 High · 81–100 Severe
+              </p>
+            </div>
+          </div>
+
+          <div class="weak-grid">
+            <div class="weak-card">
+              <h4>Sleep</h4>
+              <div class="weak-bar"><span id="sleepBar"></span></div>
+              <p id="sleepNote">—</p>
+            </div>
+            <div class="weak-card">
+              <h4>Academics</h4>
+              <div class="weak-bar"><span id="academicBar"></span></div>
+              <p id="academicNote">—</p>
+            </div>
+            <div class="weak-card">
+              <h4>Mental Health</h4>
+              <div class="weak-bar"><span id="mentalBar"></span></div>
+              <p id="mentalNote">—</p>
+            </div>
+            <div class="weak-card">
+              <h4>Lifestyle</h4>
+              <div class="weak-bar"><span id="lifestyleBar"></span></div>
+              <p id="lifestyleNote">—</p>
+            </div>
+          </div>
+
+          <div class="recommend">
+            <h4>Personalized Recommendations</h4>
+            <ul id="recommendations"></ul>
+          </div>
+        </section>
+
+        <section class="glass summary-panel">
+          <div class="section-head">
+            <h3>Input Summary</h3>
+            <span class="section-hint">Your data stays local.</span>
+          </div>
+          <div class="summary-grid" id="summaryGrid"></div>
+          <div class="privacy-note">
+            If something looks off, return to the check-in and adjust.
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
