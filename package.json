@@ -1,23 +1,25 @@
 {
   "name": "student-stress-burnout-analyzer",
   "version": "1.0.0",
-  "description": "Privacy-first real-time student stress and burnout analyzer",
+  "description": "Real-time privacy-first student stress and burnout analyzer",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [
-    "stress-analysis",
-    "student-wellbeing",
+    "stress-analyzer",
     "burnout-detector",
-    "privacy-first",
-    "nodejs"
+    "student-wellbeing",
+    "nodejs",
+    "express",
+    "ejs"
   ],
   "author": "Divya Langalia, Mohit Nirmal",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.22.1",
+    "ejs": "^3.1.10"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
