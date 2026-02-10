@@ -61,15 +61,6 @@ This ensures:
 
 ---
 
-## 🛠️ Tech Stack
-
-* **Frontend:** React / Next.js
-* **Styling:** Tailwind CSS
-* **Processing:** JavaScript (Client-side)
-* **Platform:** Replit
-* **Version Control:** GitHub
-
----
 
 ## 📊 Stress Level Scale
 
