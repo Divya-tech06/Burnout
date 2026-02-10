@@ -41,7 +41,6 @@ All calculations are executed **client-side only**.
 * ⚠️ High-risk indicator detection
 * 📈 Personalized wellness suggestions
 * 📱 Responsive modern UI
-* 🔐 100% privacy-first architecture
 
 ---
 
@@ -57,7 +56,6 @@ This ensures:
 
 * Fair comparison across inputs
 * Explainable results
-* No black-box AI
 
 ---
 
@@ -70,17 +68,6 @@ This ensures:
 | 31 – 60     | Moderate Stress |
 | 61 – 80     | High Stress     |
 | 81 – 100    | Severe Burnout  |
-
----
-
-## 🔐 Privacy & Ethics
-
-* No user accounts
-* No database
-* No analytics tracking
-* No cloud storage
-
-**Your data never leaves your device.**
 
 ---
 
