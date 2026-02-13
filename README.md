@@ -77,7 +77,7 @@ This ensures:
 
 ```
 git clone https://github.com/Divya-tech06/Burnout.git
-cd student-stress-analyzer
+cd Burnout
 ```
 
 ### Install packages
