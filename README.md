@@ -76,7 +76,7 @@ This ensures:
 ### Clone the repository
 
 ```
-git clone https://github.com/your-username/Burnout.git
+git clone https://github.com/Divya-tech06/Burnout.git
 cd student-stress-analyzer
 ```
 
