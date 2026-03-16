@@ -119,8 +119,3 @@ Contributions are welcome!
 4. Open a Pull Request
 
 ---
-
-## 👨‍💻 Authors
-
-**Divya Langalia** &
-**Mohit Nirmal**
