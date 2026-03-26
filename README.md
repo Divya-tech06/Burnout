@@ -2,6 +2,8 @@
 
 *A real-time, privacy-first web application to evaluate student stress and burnout using academic, lifestyle, and mental-health indicators — with zero data storage.*
 
+🔗 **Live Demo:** [https://burnout-wu2b.onrender.com/](https://burnout-wu2b.onrender.com/)
+
 ---
 
 ## 🌟 Why This Project?
